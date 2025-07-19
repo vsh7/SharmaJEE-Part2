@@ -57,8 +57,9 @@ const TestimonialsSection = () => {
       year: "2022"
     }
   ];
-
-  return (
+  
+  return (<>
+    
     <section id="testimonials" className="py-20 bg-gradient-to-br from-blue-50 to-purple-50">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
@@ -73,9 +74,9 @@ const TestimonialsSection = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-6xl mx-auto">
           {testimonials.map((testimonial, index) => (
             <div 
-              key={testimonial.id}
-              className="group bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 p-8 relative overflow-hidden animate-fade-in hover:scale-105"
-              style={{ animationDelay: `${index * 150}ms` }}
+            key={testimonial.id}
+            className="group bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 p-8 relative overflow-hidden animate-fade-in hover:scale-105"
+            style={{ animationDelay: `${index * 150}ms` }}
             >
               {/* Quote Icon */}
               <div className="absolute top-4 right-4 opacity-10 group-hover:opacity-20 transition-opacity duration-300">
@@ -101,7 +102,7 @@ const TestimonialsSection = () => {
                     src={testimonial.image}
                     alt={testimonial.name}
                     className="w-14 h-14 rounded-full object-cover ring-4 ring-blue-100 group-hover:ring-blue-200 transition-all duration-300"
-                  />
+                    />
                   <div className="absolute -bottom-1 -right-1 bg-green-500 text-white text-xs px-2 py-1 rounded-full font-bold">
                     {testimonial.year}
                   </div>
@@ -138,6 +139,7 @@ const TestimonialsSection = () => {
         </div>
       </div>
     </section>
+          </>
   );
 };
 

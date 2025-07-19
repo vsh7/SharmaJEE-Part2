@@ -5,7 +5,6 @@ const HeroSection = () => {
   const typewriterTexts = [
     "Padho kahi Se Revision yahi se",
     "Padho kahi se Modules yahi se",
-    "Padho kahi se Selection yahi",
     "Padho kahi se Courses yahi se"
   ];
 
@@ -41,11 +40,11 @@ const HeroSection = () => {
       </div>
 
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
-        <div className="max-w-5xl mx-auto">
+        <div className="max-w-5xl mx-auto mt-10">
           {/* Animated Badge */}
           <div className="inline-flex items-center px-6 py-3 rounded-full bg-blue-600/20 backdrop-blur-md border border-blue-400/30 text-blue-100 mb-8 animate-fade-in transform hover:scale-105 transition-all duration-300">
-            <Sparkles className="h-5 w-5 mr-2 text-yellow-400 animate-pulse" />
-            <span className="text-sm font-semibold">India's Premier JEE Mentorship Platform</span>
+            <Sparkles className="h-6 w-6 mr-2 text-yellow-400 animate-pulse" />
+            <span className="text-m font-semibold ">India's first Market Place for JEE, Made with Love by IITians</span>
           </div>
 
           {/* Main Title with Animation */}
@@ -75,17 +74,17 @@ const HeroSection = () => {
             animationDelay: '600ms',
             textShadow: '0 2px 10px rgba(0,0,0,0.2)'
           }}>
-            Transform your JEE preparation with expert mentorship, comprehensive study materials, 
-            and proven strategies that have guided thousands of students to IIT success.
+            Transform your JEE Preparation with best in class lectures, mentorship and carefully chose sequential learning methodology designed by a team of IITians.
           </p>
+          
 
           {/* CTA Buttons with Hover Animations */}
           <div className="flex flex-col sm:flex-row gap-8 justify-center items-center mb-20 animate-fade-in" style={{ animationDelay: '800ms' }}>
             <button 
-              onClick={() => scrollToSection('courses')} 
+             onClick={() => window.open("https://docs.google.com/forms/d/1NoT6I3k0DZpPUFq40KcIvkfXJ1E5BquJiWzNNJqzswQ/edit", "_blank")}
               className="group bg-white text-blue-600 px-10 py-5 rounded-2xl font-bold text-xl hover:scale-110 transition-all duration-300 shadow-2xl hover:shadow-white/25 border-2 border-transparent hover:border-white/30 transform hover:rotate-1"
             >
-              Begin Excellence
+              Join the Waitlist - Get 25% off
               <BookOpen className="inline-block ml-3 h-6 w-6 group-hover:rotate-12 transition-transform duration-300" />
             </button>
             

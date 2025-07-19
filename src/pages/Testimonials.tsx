@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { Star, Quote, Play, Award, Users, MessageSquare } from 'lucide-react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
+import TestimonialsSection from '@/components/TestimonialsSection';
 
 const Testimonials = () => {
   const detailedTestimonials = [
@@ -105,6 +106,7 @@ const Testimonials = () => {
           </div>
         </div>
       </section>
+      <TestimonialsSection/>
 
       {/* Stats Section */}
       <section className="py-16 bg-white">

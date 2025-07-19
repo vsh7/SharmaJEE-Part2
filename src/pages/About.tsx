@@ -133,44 +133,71 @@ const About = () => {
       <section className="py-24 bg-gradient-to-b from-blue-50/30 to-white">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-20">
-            <h2 className="text-5xl sm:text-6xl font-bold text-gray-900 mb-8">
-              Journey of <span className="bg-gradient-to-r from-blue-800 to-blue-600 bg-clip-text text-transparent">Excellence</span>
-            </h2>
-            <p className="text-2xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-              From a determined JEE aspirant to mentoring thousands of future engineers - witness the evolution of educational excellence.
-            </p>
+        <h2 className="text-5xl sm:text-6xl font-bold text-gray-900 mb-8">
+          Journey of <span className="bg-gradient-to-r from-blue-800 to-blue-600 bg-clip-text text-transparent">Excellence</span>
+        </h2>
+        <p className="text-2xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
+          From a determined JEE aspirant to mentoring thousands of future engineers – witness the evolution of educational excellence.
+        </p>
           </div>
 
-          <div className="max-w-5xl mx-auto">
-            <div className="relative">
-              <div className="absolute left-1/2 transform -translate-x-1/2 w-2 h-full bg-gradient-to-b from-blue-800 via-blue-700 to-blue-600 rounded-full shadow-lg"></div>
-              
-              {timelineEvents.map((event, index) => (
-                <div 
-                  key={event.year}
-                  className={`relative flex items-center mb-16 animate-fade-in ${
-                    index % 2 === 0 ? 'flex-row' : 'flex-row-reverse'
-                  }`}
-                  style={{ animationDelay: `${index * 200}ms` }}
-                >
-                  <div className={`w-1/2 ${index % 2 === 0 ? 'pr-12 text-right' : 'pl-12 text-left'}`}>
-                    <div className="bg-white rounded-3xl shadow-2xl p-8 hover:shadow-blue-600/10 transition-all duration-500 group border border-blue-100">
-                      <div className={`inline-flex p-4 rounded-2xl bg-gradient-to-r ${event.color} bg-opacity-10 mb-6 group-hover:scale-110 transition-transform duration-300`}>
-                        <event.icon className="h-8 w-8 text-blue-600" />
-                      </div>
-                      <h3 className="text-3xl font-bold text-gray-900 mb-4">
-                        {event.title}
-                      </h3>
-                      <p className="text-gray-700 leading-relaxed text-lg">{event.description}</p>
-                    </div>
-                  </div>
-                  
-                  <div className="absolute left-1/2 transform -translate-x-1/2 w-16 h-16 bg-gradient-to-r from-blue-800 to-blue-600 rounded-full border-4 border-white shadow-2xl flex items-center justify-center group-hover:scale-125 transition-transform duration-300 z-10">
-                    <span className="text-white font-bold text-sm">{event.year}</span>
-                  </div>
-                </div>
-              ))}
+          <div className="relative">
+        {/* Central vertical line for desktop */}
+        <div className="hidden md:block absolute left-1/2 transform -translate-x-1/2 top-0 h-full w-1 bg-gradient-to-b from-blue-800 to-blue-600"></div>
+
+        {timelineEvents.map((event, index) => (
+          <div key={event.year} className="mb-16 relative flex flex-col md:flex-row items-center">
+            {/* Left side card (for desktop, when index is even) */}
+            <div className={`hidden md:block md:w-1/2 ${index % 2 === 0 ? 'text-right pr-8' : ''}`}>
+          {index % 2 === 0 && (
+            <div className="bg-white rounded-3xl shadow-lg p-8 border border-blue-100 hover:shadow-blue-600/10 transition-all duration-500">
+              <div className={`inline-flex p-4 rounded-2xl bg-gradient-to-r ${event.color} bg-opacity-10 mb-6`}>
+            <event.icon className="h-8 w-8 text-blue-600" />
+              </div>
+              <h3 className="text-3xl font-bold text-gray-900 mb-4">{event.title}</h3>
+              <p className="text-gray-700 text-lg leading-relaxed">{event.description}</p>
             </div>
+          )}
+            </div>
+
+            {/* Timeline dot */}
+            <div className="z-10 flex-shrink-0">
+          <div className="w-16 h-16 flex items-center justify-center bg-gradient-to-r from-blue-800 to-blue-600 rounded-full border-4 border-white shadow-lg">
+            <span className="text-white font-bold text-sm">{event.year}</span>
+          </div>
+            </div>
+
+            {/* Right side card (for desktop, when index is odd) */}
+            <div className={`hidden md:block md:w-1/2 ${index % 2 !== 0 ? 'text-left pl-8' : ''}`}>
+          {index % 2 !== 0 && (
+            <div className="bg-white rounded-3xl shadow-lg p-8 border border-blue-100 hover:shadow-blue-600/10 transition-all duration-500">
+              <div className={`inline-flex p-4 rounded-2xl bg-gradient-to-r ${event.color} bg-opacity-10 mb-6`}>
+            <event.icon className="h-8 w-8 text-blue-600" />
+              </div>
+              <h3 className="text-3xl font-bold text-gray-900 mb-4">{event.title}</h3>
+              <p className="text-gray-700 text-lg leading-relaxed">{event.description}</p>
+            </div>
+          )}
+            </div>
+
+            {/* Mobile layout */}
+            <div className="md:hidden flex items-center w-full mt-8">
+          <div className="flex flex-col items-center mr-4">
+            <div className="w-2 h-full bg-gradient-to-b from-blue-800 via-blue-700 to-blue-600"></div>
+            <div className="w-12 h-12 flex items-center justify-center bg-gradient-to-r from-blue-800 to-blue-600 rounded-full -mt-6">
+              <span className="text-white font-bold text-sm">{event.year}</span>
+            </div>
+          </div>
+          <div className="bg-white rounded-3xl shadow-lg p-8 border border-blue-100 flex-1">
+            <div className={`inline-flex p-4 rounded-2xl bg-gradient-to-r ${event.color} bg-opacity-10 mb-6`}>
+              <event.icon className="h-8 w-8 text-blue-600" />
+            </div>
+            <h3 className="text-3xl font-bold text-gray-900 mb-4">{event.title}</h3>
+            <p className="text-gray-700 text-lg leading-relaxed">{event.description}</p>
+          </div>
+            </div>
+          </div>
+        ))}
           </div>
         </div>
       </section>

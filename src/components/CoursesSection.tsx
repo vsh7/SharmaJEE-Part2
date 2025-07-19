@@ -58,7 +58,7 @@
 //               style={{ animationDelay: `${index * 200}ms` }}
 //             >
 //               <div className={`h-2 bg-gradient-to-r ${course.color}`} />
-              
+
 //               <div className="p-8">
 //                 <div className="flex items-center justify-between mb-4">
 //                   <div className={`p-3 rounded-lg bg-gradient-to-r ${course.color} bg-opacity-10`}>
@@ -73,7 +73,7 @@
 //                 <h3 className="text-2xl font-bold text-gray-900 mb-3 group-hover:text-blue-600 transition-colors duration-300">
 //                   {course.title}
 //                 </h3>
-                
+
 //                 <p className="text-gray-600 mb-6 leading-relaxed">
 //                   {course.description}
 //                 </p>
@@ -130,24 +130,25 @@ import { Check, Star, BookOpen, Users, Clock, Target, Play, Award, TrendingUp } 
 const CoursesSection = () => {
   const courses = [
     {
-      title: 'JEE Mains Foundation',
-      subtitle: 'Complete Foundation Course',
-      price: '₹15,000',
-      originalPrice: '₹20,000',
-      duration: '6 Months',
-      students: '2,500+',
-      rating: '4.8',
+      title: 'Complete JEE Package',
+      subtitle: 'Mains + Advanced Complete',
+      price: '₹35,000',
+      originalPrice: '₹50,000',
+      duration: '12 Months',
+      students: '1,800+',
+      rating: '4.9',
       features: [
-        'Live Interactive Classes',
-        'Recorded Video Lectures',
-        'Weekly Mock Tests',
-        'Doubt Clearing Sessions',
-        'Study Materials Included',
+        'Video Lectures of Physics and Maths',
+        'Live Problem Solving Classes',
+        'Chapter-wise Tests',
+        'Doubt Clearing Session',
+        'Level-wise Exercise',
         'Performance Analytics'
       ],
       popular: false,
-      badge: 'Beginner Friendly'
+      badge: 'Complete Solution'
     },
+
     {
       title: 'JEE Advanced Pro',
       subtitle: 'Advanced Problem Solving',
@@ -157,34 +158,36 @@ const CoursesSection = () => {
       students: '3,200+',
       rating: '4.9',
       features: [
-        'Advanced Problem Solving',
-        'IIT-level Question Bank',
-        'Personal Mentorship',
-        'Daily Practice Sets',
-        'Previous Year Analysis',
-        'Rank Prediction Tool'
+        'Complete JEE Main & Advanced Coverage',
+        '1-on-1 Personal Mentorship',
+        'Fully Customised Study Timetable',
+        'Tailored Study Strategy ',
+        'Exclusive Rankers’ Assignments',
+        'Regular Mock Tests & In-Depth Analysis'
+
       ],
       popular: true,
       badge: 'Most Popular'
     },
     {
-      title: 'Complete JEE Package',
-      subtitle: 'Mains + Advanced Complete',
-      price: '₹35,000',
-      originalPrice: '₹50,000',
-      duration: '12 Months',
-      students: '1,800+',
-      rating: '4.9',
+      title: 'SharmaJEE Mentorship',
+      subtitle: 'Complete Foundation Course + Personal Mentorship',
+      price: '₹15,000',
+      originalPrice: '₹20,000',
+      duration: '6 Months',
+      students: '2,500+ Enrolled',
+      rating: '4.8',
       features: [
-        'Mains + Advanced Prep',
-        'Unlimited Doubt Support',
-        'One-on-One Sessions',
-        'Crash Course Included',
-        'Interview Preparation',
-        'College Counseling'
+        'One on One Mentorship Session',
+        'Customised Study Timetable',
+        'Customised Study Strategy',
+        'Individual Whatsapp Group',
+        'Instant Doubt Resolution',
+        'Most Affordable'
       ],
       popular: false,
-      badge: 'Complete Solution'
+      badge: 'Personalised & Affordable'
+
     }
   ];
 
@@ -251,17 +254,16 @@ const CoursesSection = () => {
                   ))}
                 </ul>
 
-                <Button
-                  className={`w-full ${
-                    course.popular ? 'bg-gradient-to-r from-orange-500 to-red-500 hover:from-orange-600 hover:to-red-600' : 'bg-blue-600 hover:bg-blue-700'
-                  } text-white py-3 text-lg font-semibold rounded-full`}
+                <p className="text-center text-sm text-green-600 font-semibold mt-1 mb-1 pb-2 pt-0">
+                  🚀 New Batch Starts 15th September — Enroll Now!
+                </p>
+                <Button onClick={()=>window.open("https://docs.google.com/forms/d/1NoT6I3k0DZpPUFq40KcIvkfXJ1E5BquJiWzNNJqzswQ/viewform?edit_requested=true")}
+                  className={`w-full ${course.popular ? 'bg-gradient-to-r from-orange-500 to-red-500 hover:from-orange-600 hover:to-red-600' : 'bg-blue-600 hover:bg-blue-700'
+                    } text-white py-3 text-lg font-semibold rounded-full`}
                 >
-                  Enroll Now
+                  Join the Waitlist - Get 25% off
                 </Button>
 
-                <p className="text-center text-sm text-gray-500 mt-3">
-                  💳 EMI options available | 🎯 Free trial for 7 days
-                </p>
               </CardContent>
             </Card>
           ))}

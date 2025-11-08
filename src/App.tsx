@@ -15,6 +15,7 @@ import MyCourses from "./pages/MyCourses";
 const queryClient = new QueryClient();
 
 const App = () => (
+  
   <QueryClientProvider client={queryClient}>
     <TooltipProvider>
       <Toaster />

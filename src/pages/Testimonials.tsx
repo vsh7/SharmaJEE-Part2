@@ -3,6 +3,7 @@ import { Star, Quote, Play, Award, Users, MessageSquare } from 'lucide-react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import TestimonialsSection from '@/components/TestimonialsSection';
+import TestimonialCarousel from '@/components/TestimonialCarousel';
 
 const Testimonials = () => {
   const detailedTestimonials = [
@@ -91,7 +92,7 @@ const Testimonials = () => {
   return (
     <div className="min-h-screen bg-white mt-10">
       <Header />
-      
+      {/* <TestimonialCarousel/> */}
       {/* Hero Section */}
       <section className="pt-24 pb-16 bg-gradient-to-br from-blue-900 via-blue-700 to-blue-600">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">

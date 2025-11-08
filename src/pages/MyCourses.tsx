@@ -47,7 +47,7 @@ import Header from '@/components/Header';
         instructor: 'Dr. Rajesh Sharma',
         rating: 4.8,
         students: 1250,
-        image: 'abs',
+        image: '/I-169.jpg',
         description: 'Master the fundamentals of mechanics including kinematics, dynamics, and Newton\'s laws with real-world applications.',
         features: [
         'Interactive problem solving',
@@ -519,7 +519,7 @@ import Header from '@/components/Header';
     );
     };
 
-    // Main Component
+
     const MyCourses = () => {
     const [cartItems, setCartItems] = useState<CartItem[]>([]);
     const [isCartOpen, setIsCartOpen] = useState(false);

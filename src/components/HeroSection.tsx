@@ -1,3 +1,4 @@
+import { useNavigate } from 'react-router-dom';
 import TypewriterEffect from './TypewriterEffect';
 import { ArrowDown, BookOpen, Trophy, Sparkles } from 'lucide-react';
 
@@ -14,7 +15,7 @@ const HeroSection = () => {
       behavior: 'smooth'
     });
   };
-
+  const navigate = useNavigate();
   return (
     <section
       className="relative border-t-[40px] border-white min-h-screen flex items-center justify-center overflow-hidden animate-gradient"
@@ -89,7 +90,8 @@ const HeroSection = () => {
             </button>
             
             <button 
-              onClick={() => scrollToSection('testimonials')} 
+              // onClick={() => scrollToSection('/testimonials')}
+              onClick={()=>navigate('testimonials')} 
               className="group border-2 border-white/30 text-white px-10 py-5 rounded-2xl font-bold text-xl hover:bg-white/10 hover:border-white hover:scale-105 transition-all duration-300 backdrop-blur-sm transform hover:-rotate-1"
             >
               Success Stories

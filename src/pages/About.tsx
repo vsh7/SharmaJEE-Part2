@@ -33,7 +33,21 @@ const About = () => {
       color: "from-blue-800 to-blue-600"
     },
     {
-      year: "2020-2024",
+      year: "2020",
+      title: "Legacy of Success",
+      description: "Cultivated a thriving community of 1000+ successful students, establishing proven methodologies for IIT success.",
+      icon: Award,
+      color: "from-blue-800 to-blue-600"
+    },
+    {
+      year: "2021",
+      title: "Legacy of Success",
+      description: "Cultivated a thriving community of 1000+ successful students, establishing proven methodologies for IIT success.",
+      icon: Award,
+      color: "from-blue-800 to-blue-600"
+    },
+    {
+      year: "2024",
       title: "Legacy of Success",
       description: "Cultivated a thriving community of 1000+ successful students, establishing proven methodologies for IIT success.",
       icon: Award,
@@ -42,9 +56,9 @@ const About = () => {
   ];
 
   const achievements = [
-    { number: "1000+", label: "Students Mentored", icon: Users, description: "Guided to success" },
+    { number: "100+", label: "Students Mentored", icon: Users, description: "Guided to success" },
     { number: "95%", label: "Success Rate", icon: Target, description: "Consistent excellence" },
-    { number: "50+", label: "AIR Under 100", icon: Award, description: "Top performers" },
+    { number: "20+", label: "AIR Under 1000", icon: Award, description: "Top performers" },
     { number: "5+", label: "Years Excellence", icon: BookOpen, description: "Proven track record" }
   ];
 
@@ -94,8 +108,8 @@ const About = () => {
                     />
                   </div>
                   <div className="absolute -bottom-6 -right-6 bg-gradient-to-r from-blue-800 to-blue-600 text-white p-4 rounded-2xl shadow-xl">
-                    <div className="text-2xl font-bold">AIR 142</div>
-                    <div className="text-sm opacity-90">JEE Advanced</div>
+                    <div className="text-2xl font-bold">IIT Mandi</div>
+                    <div className="text-sm opacity-90">2017-2021</div>
                   </div>
                 </div>
               </div>
@@ -203,7 +217,7 @@ const About = () => {
       </section>
 
       {/* Achievements Section */}
-      <section className="py-24 bg-gradient-to-b from-white to-blue-50/30">
+      <section className="py-10 bg-gradient-to-b from-white to-blue-50/30">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-20">
             <h2 className="text-5xl sm:text-6xl font-bold text-gray-900 mb-8">
@@ -221,10 +235,10 @@ const About = () => {
                 className="text-center group animate-fade-in"
                 style={{ animationDelay: `${index * 150}ms` }}
               >
-                <div className="bg-white rounded-3xl shadow-2xl p-8 hover:shadow-blue-600/10 transition-all duration-500 group-hover:scale-105 border border-blue-100">
+                <div className="bg-white rounded-3xl shadow-2xl p-4 hover:shadow-blue-600/10 transition-all duration-500 group-hover:scale-105 border border-blue-100">
                   <div className="bg-gradient-to-r from-blue-50 to-blue-100 p-6 rounded-2xl mb-6 group-hover:from-blue-100 group-hover:to-blue-200 transition-colors duration-300">
                     <achievement.icon className="h-12 w-12 text-blue-600 mx-auto mb-4" />
-                    <div className="text-4xl sm:text-5xl font-bold text-gray-900 mb-2">
+                    <div className="text-4xl sm:text-5xl font-bold text-gray-900 m-2">
                       {achievement.number}
                     </div>
                     <div className="text-gray-700 font-semibold text-lg mb-2">{achievement.label}</div>
@@ -248,10 +262,10 @@ const About = () => {
             <div className="bg-blue-600/20 backdrop-blur-md rounded-3xl p-4 w-20 h-20 mx-auto mb-12 border border-blue-400/30">
               <Heart className="h-12 w-12 mx-auto text-blue-200 animate-pulse" />
             </div>
-            <h2 className="text-5xl sm:text-6xl font-bold mb-12">
+            <h2 className="text-4xl sm:text-6xl font-bold mb-12">
               Our Vision
             </h2>
-            <blockquote className="text-2xl sm:text-3xl text-blue-100 leading-relaxed mb-16 font-medium italic">
+            <blockquote className="text-xl sm:text-3xl text-blue-100 leading-relaxed mb-16 font-medium">
               "To architect a future where every deserving student has access to world-class education and personalized mentorship, 
               transcending geographical and economic barriers. Education is the great equalizer, 
               and we are committed to making this vision a transformative reality."

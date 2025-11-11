@@ -9,7 +9,7 @@ const Footer = () => {
           {/* Brand Section */}
           <div className="lg:col-span-2">
             <div className="flex items-center space-x-2 mb-6">
-              <img src="/Footer/logo.png" alt="logo" width={200} height={100} />
+              <img src="/Footer/logo.svg" alt="logo" width={200} height={100} />
             </div>
             <p className="text-gray-300 leading-relaxed mb-6 max-w-md">
               Empowering students to achieve their JEE dreams through expert guidance, 

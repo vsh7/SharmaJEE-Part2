@@ -355,7 +355,7 @@ const About = () => {
                   <div className="absolute -inset-6 bg-gradient-to-r from-blue-800 via-blue-700 to-blue-600 rounded-3xl blur-2xl opacity-20 group-hover:opacity-30 transition-opacity duration-500"></div>
                   <div className="relative bg-white rounded-3xl p-2 shadow-2xl">
                     <img
-                      src="./AboutMe/image.png"
+                      src="./AboutMe/image.webp"
                       alt="Vaibhav Sharma - Founder"
                       className="w-full rounded-2xl shadow-xl"
                     />

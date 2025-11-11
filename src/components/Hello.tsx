@@ -42,7 +42,7 @@ function Hello() {
           {/* Right Content - Your Conversation Component */}
           <div className="relative flex justify-center  items-center ">
             {/* <ConversationHero /> */}
-            <img src="/HomePage/ConversationPage/goal.png" alt="conversation-image"  />
+            <img src="/HomePage/ConversationPage/goal.webp" alt="conversation-image"  />
           </div>
         </div>
       </div>

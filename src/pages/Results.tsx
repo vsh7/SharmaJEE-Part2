@@ -40,35 +40,36 @@ const Results = () => {
 
   const yearlyStats = [
     {
+      year: "2025",
+      totalStudents:100 ,
+      qualified: 83.30,
+      successRate: 83.30,
+      topRanks: 83.30,
+      averageImprovement: 69701
+    },
+    {
+      year: "2024",
+      totalStudents: 81.25,
+      qualified: 65.28,
+      successRate: 59.57,
+      topRanks: 78,
+      averageImprovement: 178304
+    },
+    
+    {
       year: "2023",
-      totalStudents: 320,
-      qualified: 304,
-      successRate: 95,
-      topRanks: 18,
-      averageImprovement: 650
-    },
-    {
-      year: "2022",
-      totalStudents: 280,
-      qualified: 266,
-      successRate: 95,
-      topRanks: 15,
-      averageImprovement: 580
-    },
-    {
-      year: "2021",
-      totalStudents: 245,
-      qualified: 228,
-      successRate: 93,
-      topRanks: 12,
-      averageImprovement: 520
+      totalStudents: 81.25,
+      qualified: 65.28,
+      successRate: 59.57,
+      topRanks: 78,
+      averageImprovement: 178304
     }
   ];
 
   const achievements = [
     {
       icon: Trophy,
-      title: "50+ AIR Under 100",
+      title: "20+ AIR Under 10000",
       description: "Students achieving ranks in top 100"
     },
     {
@@ -78,12 +79,12 @@ const Results = () => {
     },
     {
       icon: Award,
-      title: "650+ Average Improvement",
+      title: "70K+ Rank Improvement",
       description: "Rank improvement from previous attempts"
     },
     {
       icon: Star,
-      title: "1000+ JEE Qualifiers",
+      title: "100+ JEE Qualifiers",
       description: "Total students who cleared JEE Mains"
     }
   ];
@@ -220,23 +221,23 @@ const Results = () => {
 
                 <div className="space-y-6">
                   <div className="flex justify-between items-center">
-                    <span className="text-gray-600">Total Students</span>
-                    <span className="font-bold text-2xl text-gray-900">{year.totalStudents}</span>
+                    <span className="text-gray-600">% JEE Main Selection</span>
+                    <span className="font-bold text-2xl text-gray-900">{year.totalStudents}%</span>
                   </div>
                   
                   <div className="flex justify-between items-center">
-                    <span className="text-gray-600">JEE Qualified</span>
-                    <span className="font-bold text-2xl text-blue-600">{year.qualified}</span>
+                    <span className="text-gray-600">% JEE Advanced Selections</span>
+                    <span className="font-bold text-2xl text-blue-600">{year.qualified}%</span>
                   </div>
                   
                   <div className="flex justify-between items-center">
-                    <span className="text-gray-600">Success Rate</span>
+                    <span className="text-gray-600">% Students in IIT</span>
                     <span className="font-bold text-2xl text-blue-700">{year.successRate}%</span>
                   </div>
                   
                   <div className="flex justify-between items-center">
-                    <span className="text-gray-600">AIR Under 500</span>
-                    <span className="font-bold text-2xl text-blue-800">{year.topRanks}</span>
+                    <span className="text-gray-600">% Students Above 98%ile</span>
+                    <span className="font-bold text-2xl text-blue-800">{year.topRanks}%</span>
                   </div>
                   
                   <div className="flex justify-between items-center">

@@ -311,7 +311,7 @@ const About = () => {
   const achievements = [
     { number: "100+", label: "Students Mentored", icon: Users, description: "Guided to success" },
     { number: "95%", label: "Success Rate", icon: Target, description: "Consistent excellence" },
-    { number: "20+", label: "AIR Under 1000", icon: Award, description: "Top performers" },
+    { number: "20+", label: "AIR Under 10000", icon: Award, description: "Top performers" },
     { number: "5+", label: "Years Excellence", icon: BookOpen, description: "Proven track record" }
   ];
 
@@ -376,13 +376,13 @@ const About = () => {
                     "Excellence is not a destination, but a journey of continuous growth and dedication."
                   </p>
                   <p>
-                    My transformative journey began in 2015 as a determined JEE aspirant, navigating the same challenges that thousands of students face today. The relentless pressure, fierce competition, and overwhelming curriculum - I have walked this path with unwavering determination.
+                    My transformative journey began in 2014 as a determined JEE aspirant, navigating the same challenges that thousands of students face today. The relentless pressure, fierce competition, and overwhelming curriculum - I have walked this path with unwavering determination.
                   </p>
                   <p>
-                    Achieving AIR 142 in JEE Advanced and graduating with honors from IIT Delhi opened my eyes to a profound truth: JEE success transcends mere knowledge - it demands deep conceptual understanding, strategic application, and most importantly, the right mentorship.
+                  Achieving good rank  in JEE Advanced and graduating with honors from IIT Mandi opened my eyes to a profound truth: JEE success transcends mere knowledge - it demands deep conceptual understanding, strategic application, and most importantly, the right mentorship.
                   </p>
                   <p>
-                    This revelation inspired the birth of SharmaJEE in 2019. What commenced as mentoring a select group of students has evolved into a comprehensive platform that has empowered over 1000 students to realize their IIT dreams.
+                    This revelation inspired the birth of SharmaJEE in 2023. What commenced as mentoring a select group of students has evolved into a comprehensive platform that has empowered over 100 students to realize their IIT dreams.
                   </p>
                   <div className="bg-blue-50 p-6 rounded-2xl border-l-4 border-blue-600">
                     <p className="font-semibold text-blue-900 text-xl">

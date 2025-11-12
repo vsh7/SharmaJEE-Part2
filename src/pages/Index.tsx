@@ -16,9 +16,9 @@ const Index = () => {
       <Header />
       <HeroSection />
       <Hello/>
+      <TestTestimonial/>
       <CoursesSection />
       <ModulesSection />
-      <TestTestimonial/>
       <HomeAchievements/>
       <Footer />
       <WhatsappPlugin/>

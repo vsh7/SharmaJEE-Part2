@@ -192,7 +192,7 @@ const CoursesSection = () => {
   ];
 
   return (
-    <section className="pt-0 pb-20 bg-white">
+    <section className="pt-6 pb-20 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-6">
@@ -255,7 +255,7 @@ const CoursesSection = () => {
                 </ul>
 
                 <p className="text-center text-sm text-green-600 font-semibold mt-1 mb-1 pb-2 pt-0">
-                  🚀 New Batch Starts 15th September — Enroll Now!
+                  🚀 New Batch Starts 15th December — Enroll Now!
                 </p>
                 <Button onClick={()=>window.open("https://docs.google.com/forms/d/1NoT6I3k0DZpPUFq40KcIvkfXJ1E5BquJiWzNNJqzswQ/viewform?edit_requested=true")}
                   className={`w-full ${course.popular ? 'bg-gradient-to-r from-orange-500 to-red-500 hover:from-orange-600 hover:to-red-600' : 'bg-blue-600 hover:bg-blue-700'

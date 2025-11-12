@@ -62,19 +62,19 @@ const Header = () => {
           <div className="hidden md:flex items-center space-x-4 ml-8">
             {/* New Courses Button - Removed Courses Icon */}
             
-            <button
+            <button onClick={() => window.location.href = "https://courses.sharmajee.com/s/authenticate"}
               className="flex items-center space-x-2 transition-all duration-300 font-medium px-4 py-2 rounded-lg text-blue-600 hover:text-blue-800 hover:bg-blue-50"
             >
               <LogIn className="h-5 w-5" />
-              <span className="text-base">Login</span>
+              <span className="text-base">Login to Dashboard</span>
             </button>
-            <button
+            {/* <button
               className="flex items-center space-x-2 px-6 py-3 rounded-xl transition-all duration-300 shadow-lg hover:shadow-xl font-medium transform hover:scale-105 
                 bg-gradient-to-r from-blue-600 to-blue-700 text-white hover:from-blue-700 hover:to-blue-800"
             >
               <UserPlus className="h-5 w-5" />
               <span className="text-base">Sign Up</span>
-            </button>
+            </button> */}
           </div>
 
           {/* Mobile menu button */}

@@ -316,11 +316,11 @@ const About = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen  bg-white">
       <Header />
       
       {/* Enhanced Hero Section */}
-      <section className="pt-28 pb-20 bg-gradient-to-br from-blue-800 via-blue-700 to-blue-600 relative overflow-hidden">
+      <section className="pt-28 pb-20 bg-gradient-to-br from-blue-800 via-blue-700 to-blue-600 relative  overflow-hidden">
         <div className="absolute inset-0 opacity-30">
           <div className="absolute top-20 left-10 w-32 h-32 bg-blue-400/10 transform rotate-45 animate-pulse" />
           <div className="absolute bottom-32 right-20 w-24 h-24 bg-blue-300/15 transform -rotate-12 animate-bounce" />

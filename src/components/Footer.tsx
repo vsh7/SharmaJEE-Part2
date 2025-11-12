@@ -1,4 +1,4 @@
-import { Book, Phone, Mail, MapPin, Instagram, Youtube, MessageSquare } from 'lucide-react';
+import { Book, Phone, Mail, MapPin, Instagram, Youtube, MessageSquare, Linkedin, LinkedinIcon } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 const Footer = () => {
@@ -16,16 +16,37 @@ const Footer = () => {
               comprehensive study materials, and proven teaching methodologies.
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="bg-pink-600 p-3 rounded-lg hover:bg-pink-700 transition-colors duration-300 group">
+              <a href="https://www.instagram.com/sharmajee.iit?igsh=cjhpeWE4dGlwa2wx" className="bg-pink-600 p-3 rounded-lg hover:bg-pink-700 transition-colors duration-300 group">
                 <Instagram className="h-5 w-5 group-hover:scale-110 transition-transform duration-300" />
               </a>
-              <a href="#" className="bg-red-600 p-3 rounded-lg hover:bg-red-700 transition-colors duration-300 group">
+              <a href="https://youtube.com/@sharmajee.vsh7?si=jUyLNt8AhixaO66O" className="bg-red-600 p-3 rounded-lg hover:bg-red-700 transition-colors duration-300 group">
                 <Youtube className="h-5 w-5 group-hover:scale-110 transition-transform duration-300" />
               </a>
-              <a href="#" className="bg-green-600 p-3 rounded-lg hover:bg-green-700 transition-colors duration-300 group">
+              <a href="https://api.whatsapp.com/send/?phone=919599579007&text=Hi this is helpline Number of SharmaJEE" className="bg-green-600 p-3 rounded-lg hover:bg-green-700 transition-colors duration-300 group">
                 <MessageSquare className="h-5 w-5 group-hover:scale-110 transition-transform duration-300" />
               </a>
+              <a href="https://www.linkedin.com/in/vaibhavvsh7?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" className="bg-blue-600 p-3 rounded-lg hover:bg-blue -700 transition-colors duration-300 group">
+                <LinkedinIcon className="h-5 w-5 group-hover:scale-110 transition-transform duration-300" />
+              </a>
             </div>
+            <p className="mt-6 py-4 text-center text-blue-50 text-sm sm:text-base md:text-lg font-semibold tracking-wide 
+  bg-gradient-to-r from-[#0b1f3a] via-[#102f5a] to-[#0b1f3a] 
+  rounded-lg shadow-md shadow-blue-900/40 
+  border border-blue-800/30
+  hover:shadow-blue-600/40 transition-all duration-500 ease-in-out">
+   It is <span className="text-sky-200 font-bold">Education Venture</span> by{' '}
+  <a
+    href="https://vsh7.com"
+    className="text-white hover:text-cyan-100 hover:underline transition-colors duration-300 font-extrabold"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    VSH7 Technology
+  </a>
+  
+</p>
+
+
           </div>
 
           {/* Quick Links */}
@@ -60,7 +81,7 @@ const Footer = () => {
             <ul className="space-y-4">
               <li className="flex items-center space-x-3 text-gray-300">
                 <Phone className="h-5 w-5 text-blue-400" />
-                <span>+91 98765 43210</span>
+                <span>+91 9599579007</span>
               </li>
               <li className="flex items-center space-x-3 text-gray-300">
                 <Mail className="h-5 w-5 text-blue-400" />
@@ -68,7 +89,8 @@ const Footer = () => {
               </li>
               <li className="flex items-start space-x-3 text-gray-300">
                 <MapPin className="h-5 w-5 text-blue-400 mt-1 flex-shrink-0" />
-                <span>123 Education Hub, Knowledge City, Delhi - 110001</span>
+                <a href='https://maps.app.goo.gl/dCVqgknHXKmvFKcE9'>3rd Floor, Orchid City Center,
+Sector 53, Gurgoan.</a>
               </li>
             </ul>
           </div>
@@ -83,6 +105,12 @@ const Footer = () => {
             <div className="flex space-x-6 mt-4 md:mt-0">
               <a href="#" className="text-gray-400 hover:text-white text-sm transition-colors duration-300">
                 Privacy Policy
+              </a>
+              <a href="#" className="text-gray-400 hover:text-white text-sm transition-colors duration-300">
+                Terms of Service
+              </a>
+              <a href="#" className="text-gray-400 hover:text-white text-sm transition-colors duration-300">
+                Refund Policy
               </a>
               <a href="#" className="text-gray-400 hover:text-white text-sm transition-colors duration-300">
                 Terms of Service

@@ -6,9 +6,9 @@ const WhatsappPlugin = () => {
   return (
     
       <FloatingWhatsApp
-        phoneNumber="918770055392"          // ✅ Your WhatsApp number with country code
+        phoneNumber="919599579007"          // ✅ Your WhatsApp number with country code
         accountName="SharmaJEE Support Team"       // ✅ Display name
-        avatar="https://i.imgur.com/0y0y0y0.png"  // ✅ Custom avatar (optional)
+        avatar="/fevicon.png"  // ✅ Custom avatar (optional)
         chatMessage="Hello! 👋 How can I help you today?" // ✅ Initial chat message
         statusMessage="Expect reply in 10 Minutes"  // ✅ Status below name
         placeholder="Type your message here..."          // ✅ Input placeholder

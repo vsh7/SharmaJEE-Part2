@@ -8,6 +8,7 @@ import Hello from '@/components/Hello';
 import TestTestimonial from './TestimonialData';
 import HomeAchievements from '@/components/HomeAchievements';
 import WhatsappPlugin from '@/components/WhatsappPlugin';
+import AboutVaibhav from '@/components/AboutVaibhav';
 
 
 const Index = () => {
@@ -16,6 +17,7 @@ const Index = () => {
       <Header />
       <HeroSection />
       <Hello/>
+      <AboutVaibhav/>
       <TestTestimonial/>
       <CoursesSection />
       <ModulesSection />

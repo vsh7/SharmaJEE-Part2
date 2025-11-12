@@ -170,7 +170,7 @@ const Results = () => {
       averageImprovement: 69701
     },
     {
-      year: "2024",
+      year: "2024 S-1",
       totalStudents: 81.25,
       qualified: 65.28,
       successRate: 59.57,
@@ -179,12 +179,12 @@ const Results = () => {
     },
     
     {
-      year: "2023",
-      totalStudents: 81.25,
-      qualified: 65.28,
+      year: "2024 S-2",
+      totalStudents: 85.25,
+      qualified: 75.28,
       successRate: 59.57,
       topRanks: 78,
-      averageImprovement: 178304
+      averageImprovement: 161304
     }
   ];
 

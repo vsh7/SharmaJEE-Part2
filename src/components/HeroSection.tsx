@@ -55,7 +55,7 @@ const HeroSection = () => {
                 }}>
                 Master the{' '}
                 <span className="bg-gradient-to-r from-yellow-400 via-yellow-300 to-white bg-clip-text text-transparent animate-pulse">
-                  JEE Journey
+                  JEE Journey GenZ Style
                 </span>
           </h1>
           

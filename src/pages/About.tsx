@@ -5,19 +5,20 @@ import { Timeline } from '@/components/ui/timeline';
 
 const About = () => {
   const data = [
+    
       {
         title: "2023",
         content: (
           <div>
             
-              <p className="sm:hidden" >In January, I was promoted to the Executive Body as the Marketing Head, specializing in offline and creative marketing ventures for the company. In October, I transitioned into the role of an Educational Consultant at SWC, continuing my journey in the education sector. In December, I launched Sharmaji Mathematical – VSH7, with the vision of providing a customized and sequential learning platform. The focus was not just on IIT-JEE preparation but on fostering a lifelong learning mindset and the pursuit of knowledge beyond examinations..</p>
+              <p className="sm:hidden" >In January, I was promoted to the Executive Body as the Marketing Head, specializing in offline and creative marketing ventures for the company. In October, I transitioned into the role of an Educational Consultant at SWC, continuing my journey in the education sector. In December, I launched SharmaJEE – VSH7, with the vision of providing a customized and sequential learning platform. The focus was not just on IIT-JEE preparation but on fostering a lifelong learning mindset and the pursuit of knowledge beyond examinations..</p>
             <div className="grid sm:grid-cols-2 gap-4">
-              <p className="hidden md:block">In January, I was promoted to the Executive Body as the Marketing Head, specializing in offline and creative marketing ventures for the company. In October, I transitioned into the role of an Educational Consultant at SWC, continuing my journey in the education sector. In December, I launched Sharmaji Mathematical – VSH7, with the vision of providing a customized and sequential learning platform. The focus was not just on IIT-JEE preparation but on fostering a lifelong learning mindset and the pursuit of knowledge beyond examinations..</p>
+              <p className="hidden md:block">In January, I was promoted to the Executive Body as the Marketing Head, specializing in offline and creative marketing ventures for the company. In October, I transitioned into the role of an Educational Consultant at SWC, continuing my journey in the education sector. In December, I launched SharmaJEE – VSH7, with the vision of providing a customized and sequential learning platform. The focus was not just on IIT-JEE preparation but on fostering a lifelong learning mindset and the pursuit of knowledge beyond examinations..</p>
               <img
-                src="/timeline/1.png"
+                src="/AboutMe/2023.webp"
                 alt="img-1"
-                width={500}
-                height={500}
+                width={1280}
+                height={720}
                 className="rounded-lg object-cover h-60 md:h-60 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
               />
               
@@ -33,14 +34,14 @@ const About = () => {
             <div className="grid sm:grid-cols-2 gap-4">
   
   
-              <p className="hidden sm:block">March brought a promotion to Senior Mathematics Faculty at SWC. By May, I took on a new challenge as the Mathematics Lead and started a new vertical as the Social Media Marketing Manager, leading a team of 10 interns and marketing professionals..</p>
               <img
-                src="/timeline/2.png"
+                src="/AboutMe/2022.webp"
                 alt="img-2"
-                width={500}
-                height={500}
+                width={1280}
+                height={720}
                 className="rounded-lg object-cover h-60 md:h-60 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
               />
+              <p className="hidden sm:block">March brought a promotion to Senior Mathematics Faculty at SWC. By May, I took on a new challenge as the Mathematics Lead and started a new vertical as the Social Media Marketing Manager, leading a team of 10 interns and marketing professionals..</p>
             </div>
           </div>
         ),
@@ -51,14 +52,14 @@ const About = () => {
           <div>
             <p className="sm:hidden">In January, I founded my first startup, Anchor-AGE, with the aim of providing academic content and graphic design services to the masses. Over six months, the startup generated ₹15 lakh in revenue and employed over 200 freelancers. However, due to non-scalability, I decided to shut it down—a valuable corporate lesson in entrepreneurship. In May, I joined Swastik Classes (SWC) as a Mathematics Faculty, diving deep into the education industry.</p>
             <div className="grid sm:grid-cols-2 gap-4">
+              <p className="hidden md:block">In January, I founded my first startup, Anchor-AGE, with the aim of providing academic content and graphic design services to the masses. Over six months, the startup generated ₹15 lakh in revenue and employed over 200 freelancers. However, due to non-scalability, I decided to shut it down—a valuable corporate lesson in entrepreneurship. In May, I joined Swastik Classes (SWC) as a Mathematics Faculty, diving deep into the education industry.</p>
               <img
-                src="/timeline/3.png"
+                src="/AboutMe/2021.webp"
                 alt="img-3"
-                width={500}
-                height={500}
+                width={1280}
+                height={720}
                 className="rounded-lg object-cover h-60 md:h-60 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
               />
-              <p className="hidden md:block">In January, I founded my first startup, Anchor-AGE, with the aim of providing academic content and graphic design services to the masses. Over six months, the startup generated ₹15 lakh in revenue and employed over 200 freelancers. However, due to non-scalability, I decided to shut it down—a valuable corporate lesson in entrepreneurship. In May, I joined Swastik Classes (SWC) as a Mathematics Faculty, diving deep into the education industry.</p>
   
   
   
@@ -75,16 +76,16 @@ const About = () => {
                 In March, I became the Convener of Ruvaan, the first edition of the Literary Fest of IIT Mandi, a legacy I am still proud of as a founding member. By May, I was promoted to Quality Analyst at Doubtnut, and in September, I took on the dual role of Intern Manager and Quality Analyst. In December, I joined Unacademy as an Educator, stepping into the field of online education and content creation.
                 </p>
             <div className="grid sm:grid-cols-2 gap-4">
+              <img
+                src="/AboutMe/2020.webp"
+                alt="img-4"
+                width={1280}
+                height={720}
+                className="rounded-lg object-cover h-60 md:h-60 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
+                />
             <p className="hidden md:block">
                 In March, I became the Convener of Ruvaan, the first edition of the Literary Fest of IIT Mandi, a legacy I am still proud of as a founding member. By May, I was promoted to Quality Analyst at Doubtnut, and in September, I took on the dual role of Intern Manager and Quality Analyst. In December, I joined Unacademy as an Educator, stepping into the field of online education and content creation.
                 </p>
-              <img
-                src="/timeline/4.png"
-                alt="img-4"
-                width={500}
-                height={500}
-                className="rounded-lg object-cover h-60 md:h-60 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
-                />
                 
               
            
@@ -99,14 +100,14 @@ const About = () => {
           <div>
             <p className="sm:hidden">Leadership roles continued as I became the Convener of Youth Parliament and Sponsorship Head of the Sports Fest at IIT Mandi. In May, I took up my first internship, earning ₹2000 per month. This experience made me set a clear goal—to become financially independent. By December, I secured my first full-time internship at Doubtnut as a Subject Matter Expert.</p>
             <div className="grid sm:grid-cols-2 gap-4">
+              <p className="hidden md:block">Leadership roles continued as I became the Convener of Youth Parliament and Sponsorship Head of the Sports Fest at IIT Mandi. In May, I took up my first internship, earning ₹2000 per month. This experience made me set a clear goal—to become financially independent. By December, I secured my first full-time internship at Doubtnut as a Subject Matter Expert.</p>
               <img
-                src="/timeline/4.png"
+                src="/AboutMe/2019.webp"
                 alt="img-4"
-                width={500}
-                height={500}
+                width={1280}
+                height={720}
                 className="rounded-lg object-cover h-60 md:h-60 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
               />
-              <p className="hidden md:block">Leadership roles continued as I became the Convener of Youth Parliament and Sponsorship Head of the Sports Fest at IIT Mandi. In May, I took up my first internship, earning ₹2000 per month. This experience made me set a clear goal—to become financially independent. By December, I secured my first full-time internship at Doubtnut as a Subject Matter Expert.</p>
               
             </div>
           </div>
@@ -116,10 +117,17 @@ const About = () => {
         title: "2018",
         content: (
           <div>
+            <div className='sm:hidden'><p>This was a year of exploration and diverse experiences. I became the coordinator of the Photography and Movie Club, immersing myself in creativity. I also took up cricket, practiced diligently, and earned a spot on the team. One of my proudest moments was delivering a phenomenal bowling spell of 5 wickets for just 12 runs in the semifinals for my batch of 2021.</p></div>
            
             <div className="grid sm:grid-cols-2 gap-4">
-              <p>This was a year of exploration and diverse experiences. I became the coordinator of the Photography and Movie Club, immersing myself in creativity. I also took up cricket, practiced diligently, and earned a spot on the team. One of my proudest moments was delivering a phenomenal bowling spell of 5 wickets for just 12 runs in the semifinals for my batch of 2021.</p>
-              
+               <img
+                src="/AboutMe/2018.webp"
+                alt="img-4"
+                width={1280}
+                height={720}
+                className="rounded-lg object-cover h-60 md:h-60 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
+              />
+              <p className="hidden md:block">This was a year of exploration and diverse experiences. I became the coordinator of the Photography and Movie Club, immersing myself in creativity. I also took up cricket, practiced diligently, and earned a spot on the team. One of my proudest moments was delivering a phenomenal bowling spell of 5 wickets for just 12 runs in the semifinals for my batch of 2021.</p>
             </div>
           </div>
         ),
@@ -128,12 +136,21 @@ const About = () => {
         title: "2017",
         content: (
           <div>
+            <div className='sm:hidden'><p>Embarked on my drop-year journey with discipline and focus while ensuring I enjoyed the process wholeheartedly. The results showed significant improvement—JEE Main Rank improved to around 9,000 in April, and my JEE Advanced Rank was approximately 5,000 in May. Though I was initially disappointed, I acknowledged my progress and thanked God for the journey. In August, I joined IIT Mandi, a place that would completely transform my outlook on life.
+  
+  .</p></div>
            
             <div className="grid sm:grid-cols-2 gap-4">
-              <p>Embarked on my drop-year journey with discipline and focus while ensuring I enjoyed the process wholeheartedly. The results showed significant improvement—JEE Main Rank improved to around 9,000 in April, and my JEE Advanced Rank was approximately 5,000 in May. Though I was initially disappointed, I acknowledged my progress and thanked God for the journey. In August, I joined IIT Mandi, a place that would completely transform my outlook on life.
+              <p className="hidden md:block">Embarked on my drop-year journey with discipline and focus while ensuring I enjoyed the process wholeheartedly. The results showed significant improvement—JEE Main Rank improved to around 9,000 in April, and my JEE Advanced Rank was approximately 5,000 in May. Though I was initially disappointed, I acknowledged my progress and thanked God for the journey. In August, I joined IIT Mandi, a place that would completely transform my outlook on life.
   
   .</p>
-              
+               <img
+                src="/AboutMe/2017.webp"
+                alt="img-4"
+                width={1280}
+                height={720}
+                className="rounded-lg object-cover h-60 md:h-60 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
+              />
             </div>
           </div>
         ),
@@ -273,7 +290,7 @@ const About = () => {
         <div className="absolute inset-0 opacity-30">
           <div className="absolute top-20 left-10 w-32 h-32 bg-blue-400/10 transform rotate-45 animate-pulse" />
           <div className="absolute bottom-32 right-20 w-24 h-24 bg-blue-300/15 transform -rotate-12 animate-bounce" />
-          <div className="absolute top-1/3 right-1/4 w-16 h-16 bg-blue-500/20 rounded-full animate-ping" />
+          <div className="absolute top-1/3 right-1/4 w-16 h-16 bg-blue-1280/20 rounded-full animate-ping" />
         </div>
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="max-w-5xl mx-auto text-center text-white">
@@ -301,7 +318,7 @@ const About = () => {
             <div className="flex flex-col lg:flex-row items-center gap-16">
               <div className="lg:w-2/5">
                 <div className="relative group">
-                  <div className="absolute -inset-6 bg-gradient-to-r from-blue-800 via-blue-700 to-blue-600 rounded-3xl blur-2xl opacity-20 group-hover:opacity-30 transition-opacity duration-500"></div>
+                  <div className="absolute -inset-6 bg-gradient-to-r from-blue-800 via-blue-700 to-blue-600 rounded-3xl blur-2xl opacity-20 group-hover:opacity-30 transition-opacity duration-1280"></div>
                   <div className="relative bg-white rounded-3xl p-2 shadow-2xl">
                     <img
                       src="./AboutMe/image.webp"
@@ -370,7 +387,7 @@ const About = () => {
                 className="text-center group animate-fade-in"
                 style={{ animationDelay: `${index * 150}ms` }}
               >
-                <div className="bg-white rounded-3xl shadow-2xl p-4 hover:shadow-blue-600/10 transition-all duration-500 group-hover:scale-105 border border-blue-100">
+                <div className="bg-white rounded-3xl shadow-2xl p-4 hover:shadow-blue-600/10 transition-all duration-1280 group-hover:scale-105 border border-blue-100">
                   <div className="bg-gradient-to-r from-blue-50 to-blue-100 p-6 rounded-2xl mb-6 group-hover:from-blue-100 group-hover:to-blue-200 transition-colors duration-300">
                     <achievement.icon className="h-12 w-12 text-blue-600 mx-auto mb-4" />
                     <div className="text-4xl sm:text-5xl font-bold text-gray-900 m-2">

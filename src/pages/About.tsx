@@ -13,13 +13,13 @@ const About = () => {
               <p className="sm:hidden" >In January, I was promoted to the Executive Body as the Marketing Head, specializing in offline and creative marketing ventures for the company. In October, I transitioned into the role of an Educational Consultant at SWC, continuing my journey in the education sector. In December, I launched Sharmaji Mathematical – VSH7, with the vision of providing a customized and sequential learning platform. The focus was not just on IIT-JEE preparation but on fostering a lifelong learning mindset and the pursuit of knowledge beyond examinations..</p>
             <div className="grid sm:grid-cols-2 gap-4">
               <p className="hidden md:block">In January, I was promoted to the Executive Body as the Marketing Head, specializing in offline and creative marketing ventures for the company. In October, I transitioned into the role of an Educational Consultant at SWC, continuing my journey in the education sector. In December, I launched Sharmaji Mathematical – VSH7, with the vision of providing a customized and sequential learning platform. The focus was not just on IIT-JEE preparation but on fostering a lifelong learning mindset and the pursuit of knowledge beyond examinations..</p>
-              {/* <img
+              <img
                 src="/timeline/1.png"
                 alt="img-1"
                 width={500}
                 height={500}
                 className="rounded-lg object-cover h-60 md:h-60 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
-              /> */}
+              />
               
               </div>
           </div>
@@ -34,13 +34,13 @@ const About = () => {
   
   
               <p className="hidden sm:block">March brought a promotion to Senior Mathematics Faculty at SWC. By May, I took on a new challenge as the Mathematics Lead and started a new vertical as the Social Media Marketing Manager, leading a team of 10 interns and marketing professionals..</p>
-              {/* <img
+              <img
                 src="/timeline/2.png"
                 alt="img-2"
                 width={500}
                 height={500}
                 className="rounded-lg object-cover h-60 md:h-60 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
-              /> */}
+              />
             </div>
           </div>
         ),
@@ -51,13 +51,13 @@ const About = () => {
           <div>
             <p className="sm:hidden">In January, I founded my first startup, Anchor-AGE, with the aim of providing academic content and graphic design services to the masses. Over six months, the startup generated ₹15 lakh in revenue and employed over 200 freelancers. However, due to non-scalability, I decided to shut it down—a valuable corporate lesson in entrepreneurship. In May, I joined Swastik Classes (SWC) as a Mathematics Faculty, diving deep into the education industry.</p>
             <div className="grid sm:grid-cols-2 gap-4">
-              {/* <img
+              <img
                 src="/timeline/3.png"
                 alt="img-3"
                 width={500}
                 height={500}
                 className="rounded-lg object-cover h-60 md:h-60 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
-              /> */}
+              />
               <p className="hidden md:block">In January, I founded my first startup, Anchor-AGE, with the aim of providing academic content and graphic design services to the masses. Over six months, the startup generated ₹15 lakh in revenue and employed over 200 freelancers. However, due to non-scalability, I decided to shut it down—a valuable corporate lesson in entrepreneurship. In May, I joined Swastik Classes (SWC) as a Mathematics Faculty, diving deep into the education industry.</p>
   
   
@@ -78,13 +78,13 @@ const About = () => {
             <p className="hidden md:block">
                 In March, I became the Convener of Ruvaan, the first edition of the Literary Fest of IIT Mandi, a legacy I am still proud of as a founding member. By May, I was promoted to Quality Analyst at Doubtnut, and in September, I took on the dual role of Intern Manager and Quality Analyst. In December, I joined Unacademy as an Educator, stepping into the field of online education and content creation.
                 </p>
-              {/* <img
+              <img
                 src="/timeline/4.png"
                 alt="img-4"
                 width={500}
                 height={500}
                 className="rounded-lg object-cover h-60 md:h-60 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
-                /> */}
+                />
                 
               
            
@@ -99,13 +99,13 @@ const About = () => {
           <div>
             <p className="sm:hidden">Leadership roles continued as I became the Convener of Youth Parliament and Sponsorship Head of the Sports Fest at IIT Mandi. In May, I took up my first internship, earning ₹2000 per month. This experience made me set a clear goal—to become financially independent. By December, I secured my first full-time internship at Doubtnut as a Subject Matter Expert.</p>
             <div className="grid sm:grid-cols-2 gap-4">
-              {/* <img
+              <img
                 src="/timeline/4.png"
                 alt="img-4"
                 width={500}
                 height={500}
                 className="rounded-lg object-cover h-60 md:h-60 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
-              /> */}
+              />
               <p className="hidden md:block">Leadership roles continued as I became the Convener of Youth Parliament and Sponsorship Head of the Sports Fest at IIT Mandi. In May, I took up my first internship, earning ₹2000 per month. This experience made me set a clear goal—to become financially independent. By December, I secured my first full-time internship at Doubtnut as a Subject Matter Expert.</p>
               
             </div>
@@ -256,62 +256,11 @@ const About = () => {
         ),
       },
     ];
-  // const timelineEvents = [
-  //   {
-  //     year: "2015",
-  //     title: "The Foundation",
-  //     description: "Embarked on the JEE journey as an aspirant, experiencing firsthand the challenges that shape every student's path to success.",
-  //     icon: BookOpen,
-  //     color: "from-blue-800 to-blue-600"
-  //   },
-  //   {
-  //     year: "2017",
-  //     title: "Academic Excellence",
-  //     description: "Achieved AIR 142 in JEE Advanced, securing admission to IIT Delhi in Mechanical Engineering with distinction.",
-  //     icon: GraduationCap,
-  //     color: "from-blue-800 to-blue-600"
-  //   },
-  //   {
-  //     year: "2018",
-  //     title: "Mentorship Calling",
-  //     description: "Discovered the profound impact of quality mentorship while tutoring fellow students, igniting a passion for education.",
-  //     icon: Users,
-  //     color: "from-blue-800 to-blue-600"
-  //   },
-  //   {
-  //     year: "2019",
-  //     title: "SharmaJEE Genesis",
-  //     description: "Established SharmaJEE with a vision to democratize premium JEE preparation and make excellence accessible to all.",
-  //     icon: Target,
-  //     color: "from-blue-800 to-blue-600"
-  //   },
-  //   {
-  //     year: "2020",
-  //     title: "Legacy of Success",
-  //     description: "Cultivated a thriving community of 1000+ successful students, establishing proven methodologies for IIT success.",
-  //     icon: Award,
-  //     color: "from-blue-800 to-blue-600"
-  //   },
-  //   {
-  //     year: "2021",
-  //     title: "Legacy of Success",
-  //     description: "Cultivated a thriving community of 1000+ successful students, establishing proven methodologies for IIT success.",
-  //     icon: Award,
-  //     color: "from-blue-800 to-blue-600"
-  //   },
-  //   {
-  //     year: "2024",
-  //     title: "Legacy of Success",
-  //     description: "Cultivated a thriving community of 1000+ successful students, establishing proven methodologies for IIT success.",
-  //     icon: Award,
-  //     color: "from-blue-800 to-blue-600"
-  //   }
-  // ];
-
+  
   const achievements = [
-    { number: "100+", label: "Students Mentored", icon: Users, description: "Guided to success" },
+    { number: "1000+", label: "Students Mentored", icon: Users, description: "Guided to success" },
     { number: "95%", label: "Success Rate", icon: Target, description: "Consistent excellence" },
-    { number: "20+", label: "AIR Under 10000", icon: Award, description: "Top performers" },
+    { number: "200+", label: "AIR Under 10000", icon: Award, description: "Top performers" },
     { number: "5+", label: "Years Excellence", icon: BookOpen, description: "Proven track record" }
   ];
 
@@ -382,7 +331,7 @@ const About = () => {
                   Achieving good rank  in JEE Advanced and graduating with honors from IIT Mandi opened my eyes to a profound truth: JEE success transcends mere knowledge - it demands deep conceptual understanding, strategic application, and most importantly, the right mentorship.
                   </p>
                   <p>
-                    This revelation inspired the birth of SharmaJEE in 2023. What commenced as mentoring a select group of students has evolved into a comprehensive platform that has empowered over 100 students to realize their IIT dreams.
+                    This revelation inspired the birth of SharmaJEE in 2023. What commenced as mentoring a select group of students has evolved into a comprehensive platform that has empowered over 1000 students to realize their IIT dreams.
                   </p>
                   <div className="bg-blue-50 p-6 rounded-2xl border-l-4 border-blue-600">
                     <p className="font-semibold text-blue-900 text-xl">

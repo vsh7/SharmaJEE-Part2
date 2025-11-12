@@ -37,10 +37,9 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
       className="w-full bg-white dark:bg-neutral-950 font-sans md:px-10"
       ref={containerRef}
     >
-      <h2 className="text-5xl text-center sm:text-6xl font-bold text-gray-900 mb-8">
+       <h2 className="text-5xl text-center sm:text-6xl font-bold text-gray-900 mb-8">
               My Journey to <span className="bg-gradient-to-r from-blue-800 to-blue-600 bg-clip-text text-transparent">SharmaJEE</span>
             </h2>
-      
 
       <div ref={ref} className="relative max-w-7xl mx-auto pb-20">
         {data.map((item, index) => (
@@ -56,14 +55,13 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
                 {item.title}
               </h3>
             </div>
-<div className="relative w-full p-6 md:p-5 bg-white/80 backdrop-blur-sm border border-blue-100 shadow-sm rounded-2xl transition-all duration-300 hover:shadow-md hover:-translate-y-1">
-  
-  <p className="text-gray-700 leading-relaxed">
-    {item.content}{" "}
-  </p>
-</div>
 
-
+            <div className="relative pl-20 pr-4 md:pl-4 w-full">
+              <h3 className="md:hidden block text-2xl mb-4 text-left font-bold text-neutral-500 dark:text-neutral-500">
+                {item.title}
+              </h3>
+              {item.content}{" "}
+            </div>
           </div>
         ))}
         <div

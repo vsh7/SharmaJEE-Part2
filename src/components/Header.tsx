@@ -107,7 +107,7 @@ const Header = () => {
               className="w-full flex items-center space-x-2 transition-all duration-300 font-medium px-4 py-2 rounded-lg text-blue-600 hover:text-blue-800 hover:bg-blue-50"
             >
               <LogIn className="h-5 w-5" />
-              <span className="text-base">Login to Dashboard</span>
+              <span onClick={() => window.open("https://courses.sharmajee.com/s/authenticate", "_blank")} className="text-base">Login to Dashboard</span>
             </button>
             
           </div>
